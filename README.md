@@ -1,7 +1,7 @@
 Snake
 =====
 
-A snake is a lazy asynchronous collection with lazy filtering, lazy sorting, lazy dropping and lazy taking.
+A snake is a lazy asynchronous proxy collection with lazy filtering, lazy sorting, lazy dropping and lazy taking.
 
     trait Snake[T] extends Queryable[Snake, T] {
       def continuation: Continuation[T]

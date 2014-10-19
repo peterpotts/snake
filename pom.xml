@@ -8,7 +8,7 @@
     <artifactId>snake</artifactId>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
-    <description>Snake is a monadic ...</description>
+    <description>Snake is a lazy asynchronous proxy collection.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
